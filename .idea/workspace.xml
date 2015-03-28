@@ -129,7 +129,7 @@
         <entry file="file://$PROJECT_DIR$/scrollspy.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.25581396" vertical-offset="0" max-vertical-offset="688">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -800,7 +800,7 @@
     <entry file="file://$PROJECT_DIR$/scrollspy.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25581396" vertical-offset="0" max-vertical-offset="688">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
