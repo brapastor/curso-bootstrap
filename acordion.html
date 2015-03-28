@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/estilos.css"/>
+    <title>Document</title>
+
+</head>
+<body >
+    <div class="container">
+        <a class="btn btn-primary" data-toggle="collapse" href="#seccion">Mostrar / ocultar</a>
+        <div class="collapse" id="seccion">
+            <br/>
+            <div class="well">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto beatae cum cumque dolore sequi. Assumenda beatae commodi deserunt doloremque doloribus earum fugiat iste magni necessitatibus obcaecati omnis, porro quia ut.</p>
+            </div>
+        </div>
+
+        <!--ACORDION-->
+        <div class="panel-group" role="tablist" id="acordion">
+            <div class="panel panel-default">
+                <div role="tab" id="heading1" class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#collapse1" data-toggle="collapse" data-parent="#acordion">
+                            Encabezado 1
+                        </a>
+                    </h4>
+                </div>
+
+                <div id="collapse1" class="panel-collapse collapse in">
+                    <div class="panel-body"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia possimus similique voluptate. At autem blanditiis dolore et inventore iste magnam modi nam nostrum ratione recusandae, rerum sed, ut veritatis voluptas!</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div role="tab" id="heading2" class="panel-heading">
+                <h4 class="panel-title">
+                    <a href="#collapse2" data-toggle="collapse" data-parent="#acordion">
+                        Encabezado 1
+                    </a>
+                </h4>
+            </div>
+
+            <div id="collapse2" class="panel-collapse collapse ">
+                <div class="panel-body"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia possimus similique voluptate. At autem blanditiis dolore et inventore iste magnam modi nam nostrum ratione recusandae, rerum sed, ut veritatis voluptas!</p>
+            </div>
+
+        </div>
+
+        <div class="panel panel-default">
+            <div role="tab" id="heading3" class="panel-heading">
+                <h4 class="panel-title">
+                    <a href="#collapse3" data-toggle="collapse" data-parent="#acordion">
+                        Encabezado 1
+                    </a>
+                </h4>
+            </div>
+
+            <div id="collapse3" class="panel-collapse collapse ">
+                <div class="panel-body"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia possimus similique voluptate. At autem blanditiis dolore et inventore iste magnam modi nam nostrum ratione recusandae, rerum sed, ut veritatis voluptas!</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
